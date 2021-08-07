@@ -1,0 +1,96 @@
+.hidden {
+  display: none;
+}
+
+h1#greeting {
+  font-size: 4vw;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+div#quote {
+  float: auto;
+  opacity: 0.5;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+div#quote span {
+  font-size: 2vw;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+div#weather span{
+  background-color: ivory;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+form {
+  vertical-align: middle;
+}
+
+h2#clock {
+  font-size: 6vw;
+  vertical-align: middle;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  border-style: none;
+  opacity: 0.5;
+  resize: vertical;
+  min-height: 2rem;
+}
+
+form#login-form input[type=text] {
+  width: 50%;
+  margin: 1vh;
+}
+
+form#todo-form input[type=text] {
+  width: 70%;
+  margin: 1vh;
+}
+
+form#login-form input[type=submit] {
+  width: 19%;
+  border-style: none;
+  min-height: 2rem;
+  opacity: 0.5;
+  background-color: lightblue;
+}
+
+ul#todo-list{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+ul#todo-list li {
+  list-style: circle;
+  text-align: left;
+}
+
+ul#todo-list span{
+  font-size: 1rem;
+  box-sizing: inherit;
+  opacity: 0.5;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+ul#todo-list button {
+  box-sizing: inherit;
+  border: none;
+  background: none;
+  margin-left: 1rem;
+}
